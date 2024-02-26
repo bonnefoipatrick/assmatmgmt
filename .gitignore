@@ -36,3 +36,4 @@ workspace.xml
 
 ### VS Code ###
 .vscode/
+/frontend/.angular/
