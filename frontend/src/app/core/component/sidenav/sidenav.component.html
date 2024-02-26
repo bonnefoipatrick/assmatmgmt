@@ -1,0 +1,176 @@
+<!--
+<mat-toolbar class="mat-elevation-z8">
+  <button
+    mat-icon-button
+    *ngIf="sidenav.mode === 'over'"
+    (click)="sidenav.toggle()"
+  >
+    <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+    <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+  </button>
+  Smart Home Family Budget
+</mat-toolbar>-->
+
+<app-navigation-bar (toggleSidenav)="navigationSidenav.toggle()">
+</app-navigation-bar>
+
+<mat-sidenav-container autosize>
+<!--
+
+  <mat-sidenav #navigationSidenav mode="over" role="navigation">
+
+    <mat-nav-list>
+
+      <ng-container *ngIf="myWorkRoutes">
+
+        <h2 matSubheader
+            i18n="Sidenav Item|My Work@@MY_WORK_SUB_HEADER">
+          My Work
+        </h2>
+
+        &lt;!&ndash; Hides the auto highlighting of the first item in the nav list &ndash;&gt;
+        <a mat-list-item routerLink="/" style="height: 0;"></a>
+
+        <a *ngFor="let item of myWorkRoutes"
+           mat-list-item
+           (click)="navigationSidenav.close()"
+           [routerLink]="[item.route]"
+           routerLinkActive="list-item-active">
+          <mat-icon svgIcon="{{ item.icon }}" class="nav-list-icon"> </mat-icon>
+          {{ item.label }}
+        </a>
+
+      </ng-container>
+
+      <ng-container *ngIf="customerRoutes">
+
+        <h2 matSubheader
+            i18n="Sidenav Item|Customers@@CUSTOMERS_SUB_HEADER">
+          Customers
+        </h2>
+
+        <a *ngFor="let item of customerRoutes"
+           mat-list-item
+           (click)="navigationSidenav.close()"
+           [routerLink]="[item.route]"
+           routerLinkActive="list-item-active">
+          <mat-icon svgIcon="{{ item.icon }}" class="nav-list-icon"> </mat-icon>
+          {{ item.label }}
+        </a>
+
+      </ng-container>
+
+      <h2 matSubheader
+          i18n="Sidenav Item|Sales@@SALES_SUB_HEADER">
+        Sales
+      </h2>
+      <h2 matSubheader
+          i18n="Sidenav Item|Collateral@@COLLATERAL_SUB_HEADER">
+        Collateral
+      </h2>
+      <h2 matSubheader
+          i18n="Sidenav Item|Marketing@@MARKETING_SUB_HEADER">
+        Marketing
+      </h2>
+
+      <ng-container *ngIf="toolsRoutes">
+
+        <h2 matSubheader
+            i18n="Sidenav Item|Tools@@TOOLS_SUB_HEADER">
+          Tools
+        </h2>
+
+        <a *ngFor="let item of toolsRoutes"
+           mat-list-item
+           (click)="navigationSidenav.close()"
+           [routerLink]="[item.route]"
+           routerLinkActive="list-item-active">
+          <mat-icon svgIcon="{{ item.icon }}" class="nav-list-icon"> </mat-icon>
+          {{ item.label }}
+        </a>
+
+      </ng-container>
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+-->
+
+  <mat-sidenav #navigationSidenav mode="over" role="navigation">
+
+    <mat-nav-list>
+
+      <ng-container>
+
+        <h3 matSubheader
+            i18n="Sidenav Item|Dashboard@@DASHBOARD_SUB_HEADER">
+          Tableau de bord
+        </h3>
+        <a mat-list-item routerLink="/" style="height: 0;"></a>
+
+        <a mat-list-item
+           (click)="navigationSidenav.close()"
+           routerLink="/dashboard"
+           routerLinkActive="list-item-active">
+          <mat-icon svgIcon="dashboard" class="nav-list-icon">dashboard</mat-icon>
+          <span>Tableau de Bord</span>
+        </a>
+      </ng-container>
+
+      <ng-container>
+
+        <h3 matSubheader
+            i18n="Sidenav Item|Account@@ACCOUNT_SUB_HEADER">
+          Comptes Bancaires
+        </h3>
+        <a mat-list-item routerLink="/" style="height: 0;"></a>
+
+        <a mat-list-item
+           (click)="navigationSidenav.close()"
+           routerLink="/account"
+           routerLinkActive="list-item-active">
+          <mat-icon svgIcon="analytics" class="nav-list-icon">analytics</mat-icon>
+          <span>Comptes</span>
+        </a>
+        <a mat-list-item
+           (click)="navigationSidenav.close()"
+           routerLink="/transaction"
+           routerLinkActive="list-item-active">
+          <mat-icon svgIcon="assignment" class="nav-list-icon">account_balance</mat-icon>
+          <span>Transactions</span>
+        </a>
+      </ng-container>
+
+    </mat-nav-list>
+
+<!--    <h4 class="name">Family Budget</h4>
+    <p class="designation">SmartHome Software</p>-->
+<!--
+    <button mat-button class="menu-button" routerLink="/account">
+      <mat-icon>account_box</mat-icon>
+      <span>Comptes</span>
+    </button>
+    <mat-divider></mat-divider>
+    &lt;!&ndash;<button mat-button class="menu-button" routerLink="/bloc">
+      <mat-icon>home</mat-icon>
+      <span>Bloc Applicatif</span>
+    </button>&ndash;&gt;
+    <button mat-button class="menu-button" routerLink="/transaction">
+      <mat-icon>account_balance</mat-icon>
+      <span>Transactions</span>
+    </button>
+    <mat-divider></mat-divider>
+    <button mat-button class="menu-button" routerLink="/budget">
+      <mat-icon>credit_card</mat-icon>
+      <span>Budgets</span>
+    </button>-->
+
+  </mat-sidenav>
+
+  <mat-sidenav-content role="main">
+
+    <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

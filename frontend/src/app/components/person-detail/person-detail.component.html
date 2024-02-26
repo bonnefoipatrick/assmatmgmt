@@ -1,0 +1,86 @@
+<p>edit-person works!</p>
+<div class="container">
+  <div class="title-group">
+    <h1> Détail d'une personnes</h1>
+    <mat-divider fxFlex="F1.0"></mat-divider>
+  </div>
+  <form [formGroup]="personForm" (ngSubmit)="submit()">
+    <mat-card>
+      <mat-card-content width ="500px">
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="200px" fxLayoutGap.lt-md="10px">
+          <mat-form-field fxFlex>
+            <input
+              matInput
+              formControlName="first_name"
+              placeholder="Prén de la personne"
+              id="first_name"
+              type="text"
+              class="form-control">
+            <mat-error *ngIf="f['first_name'].errors && f['first_name'].errors['required']">
+              Le Prénom de la personne est obligatoire
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="200px" fxLayoutGap.lt-md="10px">
+          <mat-form-field fxFlex>
+            <input
+              matInput
+              formControlName="last_name"
+              placeholder="Nom de la personne"
+              id="last_name"
+              type="text"
+              class="form-control">
+            <mat-error *ngIf="f['last_name'].errors && f['last_name'].errors['required']">
+              Le Nom de la personne est obligatoire
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="200px" fxLayoutGap.lt-md="10px">
+          <mat-form-field fxFlex>
+            <input
+              matInput
+              formControlName="phone"
+              placeholder="Téléphone de la personne"
+              id="phone"
+              type="text"
+              class="form-control">
+            <mat-error *ngIf="f['phone'].errors && f['phone'].errors['required']">
+              Le Numéro de téléphone de la personne est obligatoire
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="200px" fxLayoutGap.lt-md="10px">
+          <mat-form-field fxFlex>
+            <input
+              matInput
+              formControlName="mobile"
+              placeholder="Téléphone Portable de la personne"
+              id="mobile"
+              type="text"
+              class="form-control">
+            <mat-error *ngIf="f['mobile'].errors && f['mobile'].errors['required']">
+              Le Numéro de téléphone portable de la personne est obligatoire
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="200px" fxLayoutGap.lt-md="10px">
+          <mat-form-field fxFlex>
+            <input
+              matInput
+              formControlName="no_ss"
+              placeholder="Numéro de sécurité sociale de la personne"
+              id="no_ss"
+              type="text"
+              class="form-control">
+            <mat-error *ngIf="f['no_ss'].errors && f['no_ss'].errors['required']">
+              Le Numéro de sécurité sociale de la personne est obligatoire
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </form>
+  <input type="text" [(ngModel)]="person" />
+  <button class>Annuler</button>
+  <button class>Valider</button>
+</div>
