@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-02-18T13:36:41.892Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="-kx-L3SqV0Td-G6lICkD" version="22.1.21" type="github">
+  <diagram name="Page-1" id="vmYOVn3VzLcx1DsSD5kz">
+    <mxGraphModel dx="2762" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY23dCju_eZ935Bpa6Cu-39" target="qY23dCju_eZ935Bpa6Cu-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-39" value="Internaute" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-40" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.user" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY23dCju_eZ935Bpa6Cu-43" target="qY23dCju_eZ935Bpa6Cu-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-43" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
+          <mxGeometry x="324" y="400" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY23dCju_eZ935Bpa6Cu-40" target="qY23dCju_eZ935Bpa6Cu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY23dCju_eZ935Bpa6Cu-47" target="qY23dCju_eZ935Bpa6Cu-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/luisance_pack/128/ordinateur_portable_allum.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="86" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY23dCju_eZ935Bpa6Cu-49" target="qY23dCju_eZ935Bpa6Cu-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-49" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="292.97" y="236" width="92.06" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qY23dCju_eZ935Bpa6Cu-62" target="qY23dCju_eZ935Bpa6Cu-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-62" value="Application SelfCare" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#3399FF;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
+          <mxGeometry x="440" y="227.5" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-66" value="Système d&#39;information existant" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#F3E5F5;" vertex="1" parent="1">
+          <mxGeometry x="710" y="120" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-67" value="Mainframe" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/mainframe.svg;" vertex="1" parent="1">
+          <mxGeometry x="900" y="160" width="84.21" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-70" value="&lt;div&gt;Autres Composants&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Active Directory,&lt;/div&gt;&lt;div&gt;API Gateway, ...)&lt;br&gt; &lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="770" y="150" width="50.4" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qY23dCju_eZ935Bpa6Cu-71" value="Base de donnée" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="910" y="290" width="61.5" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
