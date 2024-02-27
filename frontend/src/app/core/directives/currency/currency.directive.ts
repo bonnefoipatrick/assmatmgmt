@@ -21,6 +21,7 @@ export class CurrencyFormatterDirective  implements OnInit {
 
   ngOnInit() {
   }
+
   /*
     if (this.formControl) {
       this.ctl = this.formControl;

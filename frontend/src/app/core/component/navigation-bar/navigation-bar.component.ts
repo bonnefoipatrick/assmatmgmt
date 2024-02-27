@@ -56,6 +56,12 @@ export class NavigationBarComponent {
   public profile() {
   }
 
+  public settings() {
+  }
+
+  public help() {
+  }
+
 /*
   public isAuthenticated(): boolean {
     return this.authService.isAuthenticated();
